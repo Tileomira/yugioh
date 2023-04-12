@@ -1,0 +1,22 @@
+body {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#div1 {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  border: white 4px solid;
+  border-radius: 50px;
+}
+

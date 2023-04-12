@@ -1,0 +1,44 @@
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  margin-top: 50px;
+}
+
+form {
+  background: linear-gradient( to bottom, gray 0%, black 30%, gray 70%, black 100% );
+  color: white;
+  padding: 55px;
+  display: inline-block;
+  border: white 4px solid;
+  border-radius: 50px;
+}   
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: linear-gradient( to bottom,gray 0%, black 30% ,gray 70%, black 100% );
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

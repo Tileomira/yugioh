@@ -1,0 +1,111 @@
+body {
+  background-color: gray;
+}
+
+#body1 {
+  border: white 4px solid;
+  border-radius: 50px;
+}
+
+button{
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  border-radius: 50px;
+  border: white 4px solid;
+}
+
+div {
+  padding: 15px;
+}
+
+#div1 {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  border: white 4px solid;
+  border-radius: 50px;
+}
+
+#div2 {
+  border: white 4px solid;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+input {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  padding: auto;
+}
+
+/* #frm{
+ float: left;
+ width: 200px;
+ width: 10.125rem;
+ height: 10.125rem;
+ position: relative;
+} */
+
+.product-card {
+  background-color: black;
+  width: 135px;
+  display: inline-block;
+  border: white 4px solid;
+  border-radius: 50px;
+}
+
+.product-card img {
+  width: 130px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-card .descricao {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.product-card .preco {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .adicionar {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .adicionar:hover {
+  background-color: #3e8e41;
+}

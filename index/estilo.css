@@ -1,0 +1,65 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#id1{
+ color: black;
+ text-align: center;
+}
+
+#p1{
+ color:white ;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  border-radius: 50px;
+  border: white 4px solid;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.card-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card-quantity {
+  font-weight: bold;
+  margin-right: 10px;
+}

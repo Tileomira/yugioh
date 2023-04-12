@@ -1,0 +1,55 @@
+body {
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  border-radius: 20px;
+}
+
+table {
+  color: white;
+  width: 120%;
+  border: black 3px solid;
+}
+
+td,
+th {
+  border: white 3px solid;
+}
+
+form {
+  background: gray;
+  border: white 3px solid;
+  border-radius: 50px;
+  margin-left: 320px;
+  margin-right: auto;
+  padding: 15px;
+  width: 320px;
+}
+
+form label {
+  display: inline-block;
+  width: 60px;
+}
+
+div {
+  border: left;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+}
+
+button {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  border-radius: 50px;
+  border: white 4px solid;
+}

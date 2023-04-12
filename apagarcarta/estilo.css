@@ -1,0 +1,29 @@
+body{
+ background-color: gray;
+}
+ 
+input{
+    background: linear-gradient(to bottom, gray 0%, black 30%, gray 70%, black 100%);
+    color: white;  
+}
+
+#div1{
+    border: white 4px solid;
+    border-radius: 50px;
+}
+
+div{    
+
+
+ padding: 15px;  
+}  
+
+button { 
+ background: linear-gradient(to bottom, gray 0%, black 30%, gray 70%, black 100%);
+ color: white;  
+ border: none;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ cursor: pointer;  
+}

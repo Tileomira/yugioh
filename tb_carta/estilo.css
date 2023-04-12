@@ -1,0 +1,56 @@
+body {
+  background-color: gray;
+  border-left: auto;
+  border-right: auto;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+table {
+  color: black;
+}
+
+button {
+  background: linear-gradient(
+    to bottom,
+    gray 0%,
+    black 30%,
+    gray 70%,
+    black 100%
+  );
+  color: white;
+  border-radius: 50px;
+  border: white 4px solid;
+}
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead th {
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+table tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+table tbody tr:hover {
+  background-color: gray;
+}
+
+table th {
+  padding: 15px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
